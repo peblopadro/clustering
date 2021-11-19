@@ -1,4 +1,4 @@
-# Clustering
+# Marketing
 marketing analytics using machine learning algorithms
 
 this includes:
