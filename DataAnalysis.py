@@ -20,10 +20,10 @@ from statsmodels.tsa.stattools import adfuller
 
 
 ## Sales 2018-2021/Jul ##
-sales_2018 = pd.read_csv("C:\\Users\\Pedro Martinez\\Downloads\\Sleefs\\sales_2018-01-01_2018-12-31.csv")
-sales_2019 = pd.read_csv("C:\\Users\\Pedro Martinez\\Downloads\\Sleefs\\sales_2019-01-01_2019-12-31.csv")
-sales_2020 = pd.read_csv("C:\\Users\\Pedro Martinez\\Downloads\\Sleefs\\sales_2020-01-01.csv")
-sales_2021 = pd.read_csv("C:\\Users\\Pedro Martinez\\Downloads\\Sleefs\\sales_2021-01-01_2021-08-04.csv")
+sales_2018 = pd.read_csv("\\sales_2018-01-01_2018-12-31.csv")
+sales_2019 = pd.read_csv("\\sales_2019-01-01_2019-12-31.csv")
+sales_2020 = pd.read_csv(\\sales_2020-01-01.csv")
+sales_2021 = pd.read_csv("\\sales_2021-01-01_2021-08-04.csv")
     ## remove August
     sales_2021['month'] = pd.to_datetime(sales_2021['month'])
     sales_2021 = sales_2021[sales_2021['month'].dt.month != 8]
